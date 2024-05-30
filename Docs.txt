@@ -1,0 +1,4 @@
+background: #5D50C6; orange
+background: #FACD49; yellow
+background: #F85E9F; Pink
+border: 1px solid #1918251A

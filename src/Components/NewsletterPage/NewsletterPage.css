@@ -1,0 +1,17 @@
+.text-pink {
+    color: pink;
+  }
+  
+  .email-input {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .subscribe-button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  

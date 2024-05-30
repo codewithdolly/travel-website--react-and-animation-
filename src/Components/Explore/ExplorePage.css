@@ -1,0 +1,49 @@
+.explore-page {
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('../Images/layer.png');
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .floating-cards-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .floating-card {
+    width: 30%;
+    margin-top: 10%;
+    transition: transform 0.3s ease;
+  }
+  
+  .floating-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .d-md-block {
+      display: block !important;
+    }
+  
+    .explore-page .row {
+      flex-direction: column;
+    }
+  
+    .background-image, .floating-cards-container {
+      display: none;
+    }
+  }
+  
