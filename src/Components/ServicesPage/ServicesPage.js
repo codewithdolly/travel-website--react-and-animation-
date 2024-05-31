@@ -1,53 +1,56 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './ServicesPage.css';
+// import Group from "../Images/booking 1.png";
 
 const servicesData = [
   {
-    avatar: 'avatar1-url.jpg',
-    name: 'Service 1',
-    description: 'Description for Service 1'
+    avatar: '../Images/booking 1.png',
+    name: 'Easy Booking',
+    description: 'Square, was moving across the sand in their direction.'
   },
   {
-    avatar: 'avatar2-url.jpg',
-    name: 'Service 2',
-    description: 'Description for Service 2'
-  },
-  {
-    avatar: 'avatar3-url.jpg',
-    name: 'Service 3',
-    description: 'Description for Service 3'
+    avatar: '../Images/Group.png',
+    name: 'Best Tour Guide',
+    description: 'What looked like a small patch of purple grass, above five feet.'
   },
 
 ];
 
 const ServicesPage = () => {
   return (
-    <Container className="services-page my-5">
+    <Container fluid className="servicePage my-5">
       <Row>
         {/* Left Column */}
-        <Col md={6} className="d-flex flex-column justify-content-center">
+        <Col md={3} className="ServiceValues d-flex flex-column justify-content-center">
           <h5 className="text-pink">Services</h5>
           <h2>Our top value categories for you</h2>
         </Col>
         
         {/* Right Column */}
-        <Col md={6}>
+        <Col md={9} className='Servicecard'>
           <Row className="d-flex justify-content-center">
+          <Col xs={12} md={6} lg={4} className="mb-3">
+          <Card className="h-100 serviceCard1 align-items-center">
+                <img
+                      src="../Images/Group.png"
+                      alt="Best Tour Guide"
+                      className="avatar-image mr-3"
+                    />
+                     <Card.Title className='mt-3'>Best Tour Guide</Card.Title>
+                      <Card.Text className='serviceDesc text-justify'>What looked like a small patch of purple grass, above five feet.</Card.Text>
+                </Card>
+              </Col>
             {servicesData.map((service, index) => (
               <Col xs={12} md={6} lg={4} key={index} className="mb-3">
-                <Card className="h-100">
-                  <Card.Body className="d-flex align-items-center">
-                    <img
+                <Card className="h-100 serviceCards align-items-center shadow">
+                <img
                       src={service.avatar}
                       alt={service.name}
                       className="avatar-image mr-3"
                     />
-                    <div>
-                      <Card.Title>{service.name}</Card.Title>
-                      <Card.Text>{service.description}</Card.Text>
-                    </div>
-                  </Card.Body>
+                     <Card.Title className='mt-3'>{service.name}</Card.Title>
+                      <Card.Text className='serviceDesc text-justify'>{service.description}</Card.Text>
                 </Card>
               </Col>
             ))}

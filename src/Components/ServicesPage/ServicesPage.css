@@ -1,3 +1,12 @@
+.servicePage{
+  width: 95% !important;
+  margin-right: -9rem !important;
+
+}
+.ServiceValues{
+  width: 70% !important;
+}
+
 .text-pink {
     color: pink;
   }
@@ -7,4 +16,19 @@
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  .Servicecard{
+    border-radius: 30% !important;
+  }
+
+  .serviceCard1{
+    padding: 4rem;
+    background-color: rgba(245, 245, 245, 0.867) !important;
+    border: none !important;
+  }
+
+  .serviceCards{
+    padding: 4rem;
+    background-color: white !important;
   }

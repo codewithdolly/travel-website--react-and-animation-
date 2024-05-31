@@ -10,7 +10,7 @@ import  company4 from "../Images/New folder/4.png";
 const CompaniesPage = () => {
   return (
     <Container className="companies-page my-5">
-      <img src={errow} alt="Company 1" />
+      <img src={errow} alt="errow1" width={50} />
       {/* <Image src={errow} alt="Company 1"  className="company-image" /> */}
       <Row className="justify-content-center">
         <Col xs={6} md={3} className="text-center mb-4">
