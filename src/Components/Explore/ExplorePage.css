@@ -55,7 +55,7 @@
   .watchDemo-Icon{
     color: #5D50C6;
   }
-  .watchDemo-Icon:hover{
+  .watchDemo:hover, .watchDemo-Icon:hover{
     color: white !important;
   }
   .startBtn{

@@ -17,8 +17,8 @@ const ExplorePage = () => {
           <h1>Travel <span className='TravelDestination'>top destination</span> <br /> of theworld</h1>
           <p className='text-muted'>We always make our customer happy by providing as many choices as possible.</p>
           <div>
-            <Button className="startBtn mr-2 px-3">Get Started</Button>
-            <Button variant="outline-secondary" className='watchDemo px-3'><PlayCircleIcon className='watchDemo-Icon mr-2' />Watch Demo</Button>
+            <Button className="startBtn mr-2 px-3" href="https://www.makemytrip.com/" target="_blank">Get Started</Button>
+            <Button variant="outline-secondary" className='watchDemo px-3' href="https://www.apple.com/in/app-store/" target="_blank"><PlayCircleIcon className='watchDemo-Icon mr-2' />Watch Demo</Button>
           </div>
         </Col>
         
