@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import Logo from "../Images/Logo.png";
+import "./Header.css"
 
 const Header = () => {
   return (
@@ -31,8 +32,8 @@ const Header = () => {
           
           {/* Right Column: Login and Signup Buttons */}
           <div className="ml-auto">
-            <Button variant="outline-primary" className="mr-2">Login</Button>
-            <Button variant="primary">Signup</Button>
+            <Button className=" btn btn-light mr-2"><b>Login</b></Button>
+            <Button className='signupBtn'>Sign Up</Button>
           </div>
         </div>
       </Navbar>
