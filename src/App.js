@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import NewsletterPage from './Components/NewsletterPage/NewsletterPage';
 import Footer from "./Components/Footer/Footer";
+import TravelPoint from "./Components/TravelPoint/TravelPoint";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ExplorePage />
       <CompaniesPage />
       <ServicesPage />
+      <TravelPoint />
       <NewsletterPage />
       <Footer />
     </div>

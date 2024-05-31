@@ -35,7 +35,7 @@ const ServicesPage = () => {
                 <img
                       src="../Images/Group.png"
                       alt="Best Tour Guide"
-                      className="avatar-image mr-3"
+                      className="avatarImage mr-3"
                     />
                      <Card.Title className='mt-3'>Best Tour Guide</Card.Title>
                       <Card.Text className='serviceDesc text-justify'>What looked like a small patch of purple grass, above five feet.</Card.Text>
@@ -47,7 +47,7 @@ const ServicesPage = () => {
                 <img
                       src={service.avatar}
                       alt={service.name}
-                      className="avatar-image mr-3"
+                      className="avatarImage mr-3"
                     />
                      <Card.Title className='mt-3'>{service.name}</Card.Title>
                       <Card.Text className='serviceDesc text-justify'>{service.description}</Card.Text>

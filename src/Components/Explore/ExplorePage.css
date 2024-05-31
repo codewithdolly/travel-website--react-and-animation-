@@ -1,20 +1,22 @@
-.explore-page {
+.explorePage {
     position: relative;
   }
   
-  .background-image {
+  .backgroundImage {
     background-image: url('../Images/layer.png');
-    background-size: cover;
-    /* background-position: center; */
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 1;
+    margin-top: 6rem;
   }
   
-  .floating-cards-container {
+  .floatingCards{
     position: relative;
     z-index: 2;
     display: flex;
@@ -23,22 +25,49 @@
     height: 100%;
   }
   
-  .floating-card {
+  .floatingCard {
     width: 30%;
     margin-top: 10%;
     transition: transform 0.3s ease;
   }
   
-  .floating-card:hover {
+  .floatingCard:hover {
     transform: scale(1.05);
   }
-  
+
+  .ExploreBtn{
+    background-color: white !important;
+    color: #F85E9F !important;
+    border-radius: 40px !important;
+  }
+  .TravelDestination{
+    color: #F85E9F;
+  }
+  .watchDemo{
+    /* border: #5D50C6 1px solid !important; */
+    border-radius: 30px !important;
+  }
+  .watchDemo:hover{
+    background-color: #5D50C6 !important;
+    color: white !important;
+  }
+
+  .watchDemo-Icon{
+    color: #5D50C6;
+  }
+  .watchDemo-Icon:hover{
+    color: white !important;
+  }
+  .startBtn{
+    background-color: #5D50C6 !important;
+    border-radius: 30px !important;
+  }
   @media (max-width: 768px) {
     .d-md-block {
       display: block !important;
     }
   
-    .explore-page .row {
+    .explorePage .row {
       flex-direction: column;
     }
   

@@ -1,0 +1,45 @@
+
+.TravelPointRight{
+    padding: 6rem !important;
+  }
+.TravelHeader {
+    color: #F85E9F;
+  }
+  .travelHeader2{
+    font-size: 40px;
+  }
+  
+  .travelSuccess {
+    color: rgba(255, 87, 34, 1);;
+  }
+  
+  .infoBox {
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 20px !important;
+  }
+  
+  .infoBox p {
+    color: #666;
+  }
+.TravelMain{
+  /* padding: 8rem !important; */
+}
+.discountBtn{
+    /* padding: 8px 8px 8px 32px !important; */
+    background-color: white !important;
+    color: #666 !important;
+    font-size: 17px !important;
+    font-weight: bolder;
+    margin-left: -7rem;
+    margin-top: -21rem;
+}
+
+.starImg{
+  background-color: #FACD49 !important;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -2rem;
+}

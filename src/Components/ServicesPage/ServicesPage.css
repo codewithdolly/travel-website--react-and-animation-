@@ -1,6 +1,6 @@
 .servicePage{
-  width: 95% !important;
-  margin-right: -9rem !important;
+  width: 87% !important;
+  margin-right: -1px !important;
 
 }
 .ServiceValues{
@@ -11,7 +11,7 @@
     color: #F85E9F;
   }
   
-  .avatar-image {
+  .avatarImage {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -20,15 +20,18 @@
 
   .Servicecard{
     border-radius: 30% !important;
+    display: block !important;
+    width: 80% !important;
   }
 
   .serviceCard1{
-    padding: 4rem;
+    padding: 6rem 4rem;
     background-color: rgba(245, 245, 245, 0.867) !important;
     border: none !important;
   }
 
   .serviceCards{
-    padding: 4rem;
+    padding: 6rem 4rem;
     background-color: white !important;
+    border-radius: 15% !important;
   }
