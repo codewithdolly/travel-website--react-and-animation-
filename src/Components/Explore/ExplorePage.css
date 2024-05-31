@@ -16,6 +16,10 @@
   margin-top: 8rem;
 }
 
+.card{
+  border-radius: 12rem !important;
+}
+
 .floatingCards {
   position: relative;
   z-index: 2;

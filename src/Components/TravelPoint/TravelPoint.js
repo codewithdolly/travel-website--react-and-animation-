@@ -4,21 +4,31 @@ import "./TravelPoint.css";
 import travelgirl from "../Images/Group 9238.png";
 import discount from "../Images/discount.png";
 import star from "../Images/ticket-star.png";
+import { motion } from 'framer-motion';
 
 const TravelPoint = () => {
   return (
     <Container fluid className="travelPoint p-0 my-5 py-5 pr-5 ">
       <Row>
         {/* Image Column */}
-        <Col
-          md={6}
-          className="d-flex align-items-center justify-content-center"
-        >
-          <img src={travelgirl} alt="Travel girl" className="img-fluid" />
-          <Button className="shadow discountBtn d-flex align-items-center px-4 ">
-            <img src={discount} alt="Discount" className="  mr-2" />
-            Discount
-          </Button>
+        <Col md={6} className="d-flex align-items-center justify-content-center">
+          <motion.div
+            initial={{ x: '-100vw' }}
+            animate={{ x: 0 }}
+            transition={{ type: 'spring', stiffness: 50 }}
+          >
+            <img src={travelgirl} alt="Travel girl" className="img-fluid" />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: '-100vw' }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3, type: 'spring', stiffness: 50 }}
+          >
+            <Button className="shadow discountBtn d-flex align-items-center px-4 ml-3">
+              <img src={discount} alt="Discount" className="mr-2" />
+              Discount
+            </Button>
+          </motion.div>
         </Col>
 
         {/* Text Column */}
