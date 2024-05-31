@@ -1,11 +1,16 @@
 import React from 'react';
-import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
 import './ExplorePage.css';
 import Rectangle1 from "../Images/Rectangle 1.png";
 import Rectangle2 from "../Images/Rectangle 2.png";
 import Rectangle3 from "../Images/Rectangle 3.png";
+import erroow from "../Images/erroow.png";
+import addUser from "../Images/add-user.png";
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+import PlaceIcon from '@mui/icons-material/Place';
+
+
 
 const ExplorePage = () => {
   return (
@@ -36,6 +41,9 @@ const ExplorePage = () => {
               <Card.Img variant="top" src={Rectangle3} />
             </Card>
           </div>
+          <Image src={erroow} className="travelError p-3" roundedCircle alt="img" />
+          <Image src={addUser} className="traveluser p-3" roundedCircle alt="img" />
+          <Button variant="light" className='locationBtns btn rounded shadow'><PlaceIcon className='locationIcon' /> Top Places</Button>{' '}
         </Col>
       </Row>
     </Container>

@@ -1,4 +1,8 @@
-background: #5D50C6; orange
+background: rgba(255, 87, 34, 1); orange
 background: #FACD49; yellow
 background: #F85E9F; Pink
+background: #5D50C6; blue
 border: 1px solid #1918251A
+
+
+
