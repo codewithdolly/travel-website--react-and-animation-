@@ -3,7 +3,14 @@
     height: auto;
     object-fit: contain;
   }
-  
-  .errow1{
-    padding-top: -5rem;
+
+  .companiesPageErrow{
+    margin-left: 6rem;
+    margin-top: -2rem;
+  }
+  .companiesPage-row{
+    width: 80% !important;
+    margin-left: 10rem !important;
+    margin-top: -4rem;
+
   }

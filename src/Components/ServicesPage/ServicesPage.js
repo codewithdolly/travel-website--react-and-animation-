@@ -23,7 +23,7 @@ const ServicesPage = () => {
       <Row>
         {/* Left Column */}
         <Col md={3} className="ServiceValues d-flex flex-column justify-content-center">
-          <h5 className="text-pink">Services</h5>
+          <h5 className="ServiceHeader">Services</h5>
           <h2>Our top value categories for you</h2>
         </Col>
         

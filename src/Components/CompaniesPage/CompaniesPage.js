@@ -9,21 +9,21 @@ import  company4 from "../Images/New folder/4.png";
 
 const CompaniesPage = () => {
   return (
-    <Container className="companies-page my-5">
-      <img src={errow} alt="errow1" width={50} />
-      {/* <Image src={errow} alt="Company 1"  className="company-image" /> */}
-      <Row className="justify-content-center">
+    <Container fluid className="companiesPage mb-5">
+      <Image src={errow}  alt="Company 1" className="companiesPageErrow" />
+      <Row className="companiesPage-row justify-content-center">
         <Col xs={6} md={3} className="text-center mb-4">
-          <Image src={company1} alt="Company 1" fluid className="company-image" />
+          <Image src={company1} alt="Company 1" fluid className="companyImage" />
         </Col>
         <Col xs={6} md={3} className="text-center mb-4">
-          <Image src={company2} alt="Company 2" fluid className="company-image" />
+          <Image src={company2} alt="Company 2" fluid className="companyImage" />
+        </Col>
+
+        <Col xs={6} md={3} className="text-center mb-4">
+          <Image src={company4} alt="Company 4" fluid className="companyImage" />
         </Col>
         <Col xs={6} md={3} className="text-center mb-4">
-          <Image src={company3} alt="Company 3" fluid className="company-image" />
-        </Col>
-        <Col xs={6} md={3} className="text-center mb-4">
-          <Image src={company4} alt="Company 4" fluid className="company-image" />
+          <Image src={company3} alt="Company 3" fluid className="companyImage" />
         </Col>
       </Row>
     </Container>
