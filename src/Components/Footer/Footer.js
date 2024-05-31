@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import logo from "../Images/Logo.png";
-import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 const Footer = () => {
   return (
@@ -19,13 +19,13 @@ const Footer = () => {
               It has roots in a piece of classical Latin literature from 45 BC.
             </p>
             <div className="socialMedia">
-              <a href="#facebook" className="mr-2">
-                <FacebookIcon />
+              <a href="#facebook" className="mr-2 socialIcon p-2">
+                <FacebookOutlinedIcon />
               </a>
-              <a href="#x" className="mr-2">
+              <a href="#x" className="mr-2 socialIcon p-2">
              <XIcon />
               </a>
-              <a href="#instagram"><InstagramIcon /></a>
+              <a href="#instagram" className="socialIcon p-2"><InstagramIcon /></a>
             </div>
           </Col>
 

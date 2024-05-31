@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Button, Image } from "react-bootstrap";
 import "./TravelPoint.css";
+import { motion } from 'framer-motion';
 import travelgirl from "../Images/Group 9238.png";
 import discount from "../Images/discount.png";
 import star from "../Images/ticket-star.png";
-import { motion } from 'framer-motion';
+import wave from "../Images/wave.png";
 
 const TravelPoint = () => {
   return (
@@ -89,6 +90,7 @@ const TravelPoint = () => {
             </div>
           </Row>
         </Col>
+        <Image src={wave} alt="wave" className="img-fluid ImgWave" />
       </Row>
     </Container>
   );
