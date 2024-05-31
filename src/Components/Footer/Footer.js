@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Footer.css';
+import logo from "../Images/Logo.png";
 
 const Footer = () => {
   return (
@@ -9,8 +10,9 @@ const Footer = () => {
         <Row>
           {/* First Column */}
           <Col md={3}>
-            <img src="your-logo-url.png" alt="Logo" className="mb-3" />
-            <p>Our company is dedicated to providing top-notch services and making our customers happy with the best choices available.</p>
+            <img src={logo} alt="Logo" className="mb-3" />
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+in a piece of classical Latin literature from 45 BC.</p>
             <div className="social-media">
               <a href="#facebook" className="mr-2">Facebook</a>
               <a href="#twitter" className="mr-2">Twitter</a>
@@ -22,10 +24,9 @@ const Footer = () => {
           <Col md={3}>
             <h5>Company</h5>
             <ul className="list-unstyled">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Our Services</a></li>
+              <li><a href="#about">About</a></li>
               <li><a href="#careers">Careers</a></li>
-              <li><a href="#blog">Blog</a></li>
+              <li><a href="#blog">Mobile</a></li>
             </ul>
           </Col>
 
@@ -33,9 +34,10 @@ const Footer = () => {
           <Col md={3}>
             <h5>Contact</h5>
             <ul className="list-unstyled">
-              <li><a href="#contact">Contact Us</a></li>
-              <li><a href="#support">Support</a></li>
+              <li><a href="#travlog">Why Travlog?</a></li>
+              <li><a href="#partnership">Partner with us</a></li>
               <li><a href="#faq">FAQ</a></li>
+              <li><a href="#blog">Blog</a></li>
             </ul>
           </Col>
 
@@ -43,9 +45,9 @@ const Footer = () => {
           <Col md={3}>
             <h5>Meet Us</h5>
             <ul className="list-unstyled">
-              <li><a href="#location">Our Location</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#partners">Partners</a></li>
+              <li><a href="#phone">+00 92 1234 56789</a></li>
+              <li><a href="#email">info@travlog.com</a></li>
+              <li><a href="#address">205. R Street, New York <br /> BD23200</a></li>
             </ul>
           </Col>
         </Row>
