@@ -31,7 +31,7 @@ const ServicesPage = () => {
         <Col md={9} className='Servicecard'>
           <Row className="d-flex justify-content-center">
           <Col xs={12} md={6} lg={4} className="mb-3">
-          <Card className="h-100 serviceCard1 align-items-center">
+          <Card className="h-100 serviceCard1 align-items-center xs-p-0">
                 <img
                       src="../Images/Group.png"
                       alt="Best Tour Guide"

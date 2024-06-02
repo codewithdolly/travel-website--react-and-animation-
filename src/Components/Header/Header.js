@@ -28,13 +28,14 @@ const Header = () => {
               <Nav.Link href="#social-deals">Social Deals</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
-          
-          {/* Right Column: Login and Signup Buttons */}
+                     {/* Right Column: Login and Signup Buttons */}
           <div className="ml-auto">
             <Button className=" btn btn-light mr-2"><b>Login</b></Button>
             <Button className='signupBtn'>Sign Up</Button>
           </div>
+          </Navbar.Collapse>
+          
+ 
         </div>
       </Navbar>
     </header>
